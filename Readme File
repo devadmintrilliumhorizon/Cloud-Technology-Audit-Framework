@@ -1,0 +1,16 @@
+## Overview
+CloudTech Audit Framework is a Python-based tool designed to **evaluate cloud-based SaaS platforms**. It performs:
+- **Architecture analysis** (API structure, database optimization, CI/CD review)
+- **Cloud cost estimation** (AWS, Azure, GCP cost modeling)
+- **Security review** (IAM policies, data encryption, network security)
+
+## Features
+✔ Supports **AWS, Azure, and GCP**  
+✔ Generates **PDF reports** with architecture and cost insights  
+✔ Scans **security vulnerabilities** in cloud configurations  
+
+## Installation
+```bash
+git clone https://github.com/yourusername/CloudTech-Audit-Framework.git
+cd CloudTech-Audit-Framework
+pip install -r requirements.txt
