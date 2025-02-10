@@ -1,0 +1,6 @@
+def run_security_scan(provider):
+    print(f"Performing security audit for {provider}...")
+    # Dummy security results
+    issues_found = ["IAM misconfiguration", "Unencrypted S3 bucket", "Overly permissive security groups"]
+    for issue in issues_found:
+        print(f"[WARNING] {issue}")
