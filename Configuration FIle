@@ -1,0 +1,13 @@
+cloud_provider: aws
+regions:
+  - us-east-1
+  - us-west-2
+cost_analysis:
+  include_savings_plan: true
+  compare_on_demand: true
+architecture_review:
+  check_cdn: true
+  check_database_sharding: true
+security_review:
+  scan_iam_policies: true
+  check_encryption: true
