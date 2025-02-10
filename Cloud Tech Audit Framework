@@ -1,0 +1,18 @@
+CloudTech-Audit-Framework/
+│── README.md
+│── requirements.txt
+│── .gitignore
+│── config.yaml
+│── main.py
+│── modules/
+│   │── architecture_analysis.py
+│   │── cost_estimation.py
+│   │── security_review.py
+│── tests/
+│   │── test_architecture.py
+│   │── test_cost_estimation.py
+│   │── test_security.py
+│── docs/
+│   │── Architecture_Review_Report.md
+│   │── Cost_Analysis_Report.md
+│   │── Security_Audit_Report.md
