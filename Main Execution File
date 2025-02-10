@@ -1,0 +1,19 @@
+import argparse
+from modules import architecture_analysis, cost_estimation, security_review
+
+def main():
+    parser = argparse.ArgumentParser(description="CloudTech Audit Framework")
+    parser.add_argument("--provider", choices=["aws", "azure", "gcp"], required=True, help="Select cloud provider")
+    parser.add_argument("--report", choices=["architecture", "cost", "security"], required=True, help="Select report type")
+    
+    args = parser.parse_args()
+    
+    if args.report == "architecture":
+        architecture_analysis.run_analysis(args.provider)
+    elif args.report == "cost":
+        cost_estimation.calculate_costs(args.provider)
+    elif args.report == "security":
+        security_review.run_security_scan(args.provider)
+
+if __name__ == "__main__":
+    main()
