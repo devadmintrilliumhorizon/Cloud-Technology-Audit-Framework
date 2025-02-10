@@ -1,0 +1,1 @@
+python main.py --provider aws --report architecture
